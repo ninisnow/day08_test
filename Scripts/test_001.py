@@ -1,6 +1,4 @@
 import allure,pytest
-
-
 class Test_001:
     @allure.step(title = "登录")
     def test_001(self):

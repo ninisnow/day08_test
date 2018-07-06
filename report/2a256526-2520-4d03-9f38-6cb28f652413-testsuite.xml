@@ -1,0 +1,22 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1530878888953" stop="1530878888953">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1530878888953" status="broken" stop="1530878888953">
+      <name>test_001</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>Scripts\test_001.py:2: in &lt;module&gt;
+    class Test_001:
+Scripts\test_001.py:11: in Test_001
+    @allure.setp(title = "注册")
+E   AttributeError: module 'allure' has no attribute 'setp'</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
